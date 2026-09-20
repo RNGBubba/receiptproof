@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "ticket_id": "receiptproof-release",
+  "receipt_id": "receiptproof-release",
   "code_sha": "a2f9279552efc7142f130836499f65da168347a2",
   "command": "pytest -q > evidence/pytest-output.txt",
   "exit_code": 0,
