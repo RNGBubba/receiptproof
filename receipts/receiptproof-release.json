@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "ticket_id": "receiptproof-release",
-  "code_sha": "1fb7ebacfa596e4367a9cd16d64f0f5a44423f1b",
-  "command": "pytest -q",
+  "code_sha": "a2f9279552efc7142f130836499f65da168347a2",
+  "command": "pytest -q > evidence/pytest-output.txt",
   "exit_code": 0,
   "artifact": {
     "path": "evidence/pytest-output.txt",
-    "sha256": "ae74af63b44754fae71455a77581942c6201d44e062aa440d0cca14d12138177",
-    "bytes": 53
+    "sha256": "549ca11e4fe3df25ea1c34a3bac944e6e63975250497b6adc3e172fa62165968",
+    "bytes": 98
   },
-  "recorded_at": "2026-09-20T22:59:11+00:00"
+  "recorded_at": "2026-09-20T23:00:12+00:00"
 }
