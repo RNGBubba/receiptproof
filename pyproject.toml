@@ -1,0 +1,17 @@
+[project]
+name = "receiptproof"
+version = "0.1.0"
+description = "Strict JSON receipt validation with artifact path and hash checks."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["jsonschema>=4.26.0"]
+
+[project.scripts]
+receiptproof = "receiptproof.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.12.16,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = ["pytest>=9.1.1"]
