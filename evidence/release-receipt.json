@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "ticket_id": "receiptproof-release",
+  "code_sha": "09f112a8831829d7dd6f70acc2336127d66724d2",
+  "command": "pytest -q > evidence/pytest-output.txt",
+  "exit_code": 0,
+  "artifact": {
+    "path": "evidence/pytest-output.txt",
+    "sha256": "549ca11e4fe3df25ea1c34a3bac944e6e63975250497b6adc3e172fa62165968",
+    "bytes": 98
+  },
+  "recorded_at": "2026-09-20T23:00:03+00:00"
+}
